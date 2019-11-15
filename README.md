@@ -18,7 +18,7 @@ This dataset contains more than 500.000 reviews on food products that are sold o
 
 ## A tentative list of milestones for the project
 Week 12: Pre-processing and Preparations
-In this week, Jasmijn will pre-process by filtering and lemmatizing the textual reviews in our dataset. 
+In this week, Jasmijn will pre-process by filtering and lemmatizing the textual reviews in our dataset. We chose to lemmatize rather than stem our corpus because lemmatization takes into account the morphological content of the words, making it more accurate in this instance.
 
 Week 13
 Floor can create and train the Naive Bayes Classifier on our dataset. The Naive Bayes model will focus on the raw frequencies of positive, neutral, or negative words in the text of the review as well as the number of stars in the review and the correlation between these two metrics. We will then evaluate this model on our test set.    
