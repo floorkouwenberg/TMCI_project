@@ -1,7 +1,7 @@
 # Final Project: Text Mining and Collective Intelligence
 ## Floor Kouwenberg, Lanie Preston, and Jasmijn Bleijlevens 
 
-## Title
+## Fantastic Food Finder : Rating Prediction & Sentiment Analysis on Amazon Food Reviews
 
 ## Abstract
 We would like to create a classifier that can predict the number of stars a food item will recieve in an Amazon review based on sentiment analysis of the language in the review. We will achieve this by training a Naive Bayes classifier or a KNN classifer on the number of stars that the review earned on a selection of Amazon food reviews in the Review.csv file to predict the number of stars. We will also count the co-occurrences to find the words in the review that are most often associated with positive and negative words. We will take the list of positive or negative words from the SentiWordNet corpus in NLTK. We think this would be extremely helpful to those who wish to purchase food online without being able to try it in advance.     
