@@ -4,7 +4,7 @@
 ## Fantastic Food Finder : Rating Prediction & Sentiment Analysis on Amazon Food Reviews
 
 ## Abstract
-We would like to create a classifier that can predict the number of stars a food item will recieve in an Amazon review based on sentiment analysis of the language in the review. We will achieve this by training a Naive Bayes classifier or a KNN classifer on the number of stars that the review earned on a selection of Amazon food reviews in the Review.csv file to predict the number of stars. We will also count the co-occurrences to find the words in the review that are most often associated with positive and negative words. We will take the list of positive or negative words from the SentiWordNet corpus in NLTK. We think this would be extremely helpful to those who wish to purchase food online without being able to try it in advance.     
+We would like to create a classifier that can predict the number of stars a food item will recieve based on it's review. We will analyze the reviews and also perform sentiment analysis. We will train a several Naive Bayes classifiers to predict the number of stars a food review will get. We will then preform analysis on them to see which one preforms best. We will also try to write a function that will give the best attribute of a certain product, again using sentiment analysis. We think this would be extremely helpful to those who wish to purchase food online without being able to try it in advance.     
 
 ## Research questions
 1. Is it possible to estimate the number of stars a food review will recieve based on the language of the review?
@@ -30,4 +30,18 @@ Week 15
 Lanie will write the project report. Jasmijn will create the slides for our presentation on Tuesday.We will all prepare for the presentation. 
 
 ## Documentation
-Currently our repo conists of our dataset and this readme file. 
+| File | Description |
+| --- | --- |
+| .ipynb_checkpoints	| Related to the Jupyter Notebooks | 
+| .gitattributes	| Related to Git | 
+| Cooccs.ipynb	| Jupyter Notebook containing the some plots and basic code for the co-occurences | 
+| Machine Learning (1) with raw frequencies.ipynb	| Jupyter Notebook containing some Naive Bayes classifiers | 
+| Machine learning (2) with plmi weighting and co-occs.ipynb | Jupyter Notebook containing some more Naive Bayes classifiers | 
+| Machine learning (3) with positivity and negativity scores.ipynb	| Jupyter Notebook containing one more Naive Bayes classifier | 
+| Preprocessing_Lemmatizing.ipynb	| Contains the preprocessing pipeline and lemmeatization of the reviews. Only run this file with the downloaded dataset from the abovementioned website. For all other Notebooks you will not need the large dataset. |
+| README.md	| . |
+| Reviews.csv	| The csv file containing our dataset |
+| cooccs_dict.txt	| Contains a dictionary containing all coocurences of our shortened dataset | 
+| desktop.ini	| ? | 
+| test_dicts.txt	| Containts 8000 entries of our dataset and is used for testing the classifiers |
+| training_dicts.txt | Contains 2000 entries of our dataset an is used for training the classifiers |
