@@ -42,6 +42,6 @@ Jasmijn and Lanie will write the project report, which Jasmijn will translate to
 | README.md	| . |
 | Reviews.csv	| The csv file containing our dataset |
 | cooccs_final_list.txt	| Contains a list with product ids, review scores, and lemmatized reviews of 1000 items to use for finding cooccs of nouns with adjectives for product analysis | 
-| desktop.ini	| ? | 
+| desktop.ini	| File used to determine how project folder is displayed on Windows computers | 
 | test_dicts.txt	| Containts 8000 entries of our dataset and is used for testing the classifiers |
 | training_dicts.txt | Contains 2000 entries of our dataset an is used for training the classifiers |
