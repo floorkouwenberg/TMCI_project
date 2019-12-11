@@ -13,7 +13,7 @@ We would like to create a classifier that can predict the number of stars a food
 ## Dataset
 Source of the dataset: J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013.
 Link to the Dataset: https://drive.google.com/file/d/1muN7X7tqzIZRokeyBnnvW8aXlkRpvIun/view?usp=sharing (it was too large to put on Github)
-This dataset contains more than 500.000 reviews on food products that are sold on amazon. We are mostly interested in the rating and text columns. Since the dataset is quite large we will select the first 50.000 entries, otherwise operations will take a long time to run. 
+This dataset contains more than 500.000 reviews on food products that are sold on amazon. We are mostly interested in the rating and text columns. Since the dataset is quite large, we selected the first 10.000 entries; otherwise, we constantly exceeded the allotted data rate for Jupyter notebooks. 
 
 
 ## A tentative list of milestones for the project
@@ -27,21 +27,21 @@ Week 14
 Together we will apply vector semantics to the data set to measure the words that specifically co-occurred with positive and negative words in each review. This way which attributes of a product are especially good or bad. 
  
 Week 15
-Lanie will write the project report. Jasmijn will create the slides for our presentation on Tuesday.We will all prepare for the presentation. 
+Jasmijn and Lanie will write the project report, which Jasmijn will translate to Latex. Lanie will create the slides for our presentation on Tuesday. We will all prepare for the presentation. 
 
 ## Documentation
 | File | Description |
 | --- | --- |
 | .ipynb_checkpoints	| Related to the Jupyter Notebooks | 
 | .gitattributes	| Related to Git | 
-| Cooccs.ipynb	| Jupyter Notebook containing the some plots and basic code for the co-occurences | 
+| Cooccs.ipynb	| Jupyter Notebook containing source code for the co-occurences & PMLI metrics used as features in the Machine learning files | 
 | Machine Learning (1) with raw frequencies.ipynb	| Jupyter Notebook containing some Naive Bayes classifiers | 
 | Machine learning (2) with plmi weighting and co-occs.ipynb | Jupyter Notebook containing some more Naive Bayes classifiers | 
 | Machine learning (3) with positivity and negativity scores.ipynb	| Jupyter Notebook containing one more Naive Bayes classifier | 
-| Preprocessing_Lemmatizing.ipynb	| Contains the preprocessing pipeline and lemmeatization of the reviews. Only run this file with the downloaded dataset from the abovementioned website. For all other Notebooks you will not need the large dataset. |
+| Preprocessing_Lemmatizing.ipynb	| Contains the preprocessing pipeline and lemmeatization of the reviews. Only run this file with the downloaded dataset from the abovementioned website. To run this file, make sure you change the absolute path at the top of the code to the appropriate file path on your machine. For all other Notebooks you will not need the large dataset. |
 | README.md	| . |
 | Reviews.csv	| The csv file containing our dataset |
-| cooccs_dict.txt	| Contains a dictionary containing all coocurences of our shortened dataset | 
+| cooccs_final_list.txt	| Contains a list with product ids, review scores, and lemmatized reviews of 1000 items to use for finding cooccs of nouns with adjectives for product analysis | 
 | desktop.ini	| ? | 
 | test_dicts.txt	| Containts 8000 entries of our dataset and is used for testing the classifiers |
 | training_dicts.txt | Contains 2000 entries of our dataset an is used for training the classifiers |
