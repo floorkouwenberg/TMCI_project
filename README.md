@@ -13,7 +13,7 @@ We would like to create a classifier that can predict the number of stars a food
 ## Dataset
 Source of the dataset: J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013.
 Link to the Dataset: https://drive.google.com/file/d/1muN7X7tqzIZRokeyBnnvW8aXlkRpvIun/view?usp=sharing (it was too large to put on Github)
-This dataset contains more than 500.000 reviews on food products that are sold on amazon. We are mostly interested in the rating and text columns. Since the dataset is quite large, we selected the first 10.000 entries; otherwise, we constantly exceeded the allotted data rate for Jupyter notebooks. 
+This dataset contains more than 500.000 reviews on food products that are sold on amazon. We are mostly interested in the rating and text columns. Since the file is quite large, we shuffled and selected 10.000 entries to use as our dataset for this project; otherwise, we constantly exceeded the allotted data rate for Jupyter notebooks. 
 
 
 ## A tentative list of milestones for the project
@@ -34,7 +34,7 @@ Jasmijn and Lanie will write the project report, which Jasmijn will translate to
 | --- | --- |
 | .ipynb_checkpoints	| Related to the Jupyter Notebooks | 
 | .gitattributes	| Related to Git | 
-| Cooccs.ipynb	| Jupyter Notebook containing source code for the co-occurences & PMLI metrics used as features in the Machine learning files | 
+| Cooccs.ipynb	| Jupyter Notebook containing source code for the co-occurences & PMLI metrics used as features in the Machine learning files as well as density plots of positivity per class and code used to find the important attributes of products| 
 | Machine Learning (1) with raw frequencies.ipynb	| Jupyter Notebook containing some Naive Bayes classifiers | 
 | Machine learning (2) with plmi weighting and co-occs.ipynb | Jupyter Notebook containing some more Naive Bayes classifiers | 
 | Machine learning (3) with positivity and negativity scores.ipynb	| Jupyter Notebook containing one more Naive Bayes classifier | 
