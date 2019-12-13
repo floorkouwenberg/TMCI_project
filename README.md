@@ -30,6 +30,8 @@ Together we will apply vector semantics to the data set to measure the words tha
 Jasmijn and Lanie will write the project report, which Jasmijn will translate to Latex. Lanie will create the slides for our presentation on Tuesday. We will all prepare for the presentation. 
 
 ## Documentation
+We were unable to put all of our code into a single notebook because when we tried to combine the notebooks, we ran out of memory when running the file. We apologize for any inconvenience this will cause! Please start by downloading the Reviews.csv file, then changing the absolute path in Preprocessing_Lemmatizing to the absolute path where the dataset is stored on your own Machine. Then, run the notebooks in the following order: Preprocessing_Lemmatizing, Cooccs, Machine_Learning(1), Machine_Learning(2), and finally Machine_Learning(3).
+
 | File | Description |
 | --- | --- |
 | .ipynb_checkpoints	| Related to the Jupyter Notebooks | 
